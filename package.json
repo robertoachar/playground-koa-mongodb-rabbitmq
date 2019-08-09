@@ -1,0 +1,33 @@
+{
+  "name": "playground-koa-mongodb-rabbitmq",
+  "version": "1.0.0",
+  "description": "A playground for Koa with MongoDB and RabbitMQ.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/playground-koa-mongodb-rabbitmq#readme",
+  "keywords": [
+    "node"
+  ],
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/playground-koa-mongodb-rabbitmq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/playground-koa-mongodb-rabbitmq/issues"
+  },
+  "dependencies": {
+    "esm": "3.2.25"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.2.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
+  },
+  "license": "MIT"
+}
